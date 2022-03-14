@@ -170,15 +170,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   return (
     
-    <TwitterContextProvider
-      value={{
-        tweetAstMap: (recordMap as any).tweetAstMap || {},
-        swrOptions: {
-          fetcher: (id) =>
-            fetch(`/api/get-tweet-ast/${id}`).then((r) => r.json())
-        }
-      }}
-    >
+      <>
       <PageHead site={site} />
 
       <Head>
@@ -186,7 +178,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         <meta property='og:site_name' content={site.name} />
         <title>{title}</title>
       </Head>
-      <>
+      
       <CustomFont site={site} />
 
       {isLiteMode && <BodyClassName className='notion-lite' />}
@@ -252,7 +244,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         }
       />
     </>
-    //   <GitHubShareButton />
-    // </TwitterContextProvider>
+    
+     
   )
 }
