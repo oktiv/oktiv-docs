@@ -17,10 +17,10 @@ module.exports = {
   socialImageSubtitle: 'Follow Us',
 
   // social usernames (optional)
-  facebook: 'oktiv.io',
-  instagram: 'oktiv.io',
-  twitter: 'oktiv_io',
-  linkedin: 'oktiv',
+  //facebook: 'oktiv.io',
+  //instagram: 'oktiv.io',
+  //twitter: 'oktiv_io',
+  //linkedin: 'oktiv',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
