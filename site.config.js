@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Oktiv',
-  domain: 'https://docs.oktiv.io/',
+  domain: 'docs.oktiv.io',
   author: 'Oktiv',
 
   // open graph metadata (optional)
