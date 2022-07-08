@@ -7,13 +7,13 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Oktiv',
+  name: 'OKTIV.IO',
   domain: 'docs.oktiv.io',
-  author: 'Oktiv',
+  author: 'OKTIV.IO',
 
   // open graph metadata (optional)
-  description: 'Spotify playlist promotion platform for musicians.',
-  socialImageTitle: 'Oktiv',
+  description: 'OKTIV.IO is a Spotify playlist promotion platform for artists, managers, and record labels. Search for playlists and find contact details for curators and playlist owners.',
+  socialImageTitle: 'OKTIV.IO',
   socialImageSubtitle: 'Follow Us',
 
   // social usernames (optional)
